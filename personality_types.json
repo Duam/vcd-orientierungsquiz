@@ -1,0 +1,146 @@
+{
+    "ESTJ": {
+        "title": "Der Organisator",
+        "description": "Du bist ein geborener Planer und Manager. Du übernimmst Verantwortung, organisierst Proteste oder Projekte und stellst sicher, dass alles reibungslos funktioniert. Struktur ist für dich der Schlüssel zum Erfolg.",
+        "focus_points": [
+            "Organisation von Demonstrationen",
+            "Verkehrspolitik",
+            "Management von Initiativen"
+        ]
+    },
+    "ISTJ": {
+        "title": "Der Pragmatiker",
+        "description": "Du bist ein Detail-orientierter Aktivist, der pragmatische Lösungen bevorzugt. Du setzt dich dafür ein, dass Verkehrspolitik effizient und realistisch umgesetzt wird. Du glaubst an gut geplante Maßnahmen und rigorose Umsetzungen.",
+        "focus_points": [
+            "Infrastruktur",
+            "Verkehrssicherheit",
+            "langfristige Planung"
+        ]
+    },
+    "ESFJ": {
+        "title": "Der Netzwerker",
+        "description": "Du bringst Menschen zusammen und kümmerst dich um die Gemeinschaft. Du sorgst dafür, dass sich alle willkommen fühlen und dass die Verkehrswende auch die soziale Komponente nicht aus den Augen verliert.",
+        "focus_points": [
+            "Öffentlichkeitsarbeit",
+            "Bildungsinitiativen",
+            "Bürgerbeteiligung"
+        ]
+    },
+    "ISFJ": {
+        "title": "Der Beschützer",
+        "description": "Du sorgst dich um die Menschen und möchtest die Verkehrswende vor allem sicher und für alle zugänglich gestalten. Du bist sehr praktisch und möchtest, dass alle profitieren, besonders vulnerable Gruppen wie Kinder oder ältere Menschen.",
+        "focus_points": [
+            "Verkehrssicherheit",
+            "barrierefreie Mobilität",
+            "sozial gerechte Lösungen"
+        ]
+    },
+    "ESTP": {
+        "title": "Der Macher",
+        "description": "Du bist spontan und praktisch und scheust dich nicht davor, Dinge selbst in die Hand zu nehmen. Du organisierst gerne schnelle Aktionen und demonstrierst oft mit innovativen Aktionen, um auf die Verkehrswende aufmerksam zu machen.",
+        "focus_points": [
+            "Aktionen vor Ort",
+            "politische Demonstrationen",
+            "Radfahr-Aktivismus"
+        ]
+    },
+    "ISTP": {
+        "title": "Der Taktiker",
+        "description": "Du bist flexibel und lösungsorientiert. Du bevorzugst praktische Ansätze und hast oft kreative Ideen, wie Mobilität umgestaltet werden kann. Du hinterfragst bestehende Systeme und optimierst sie gerne.",
+        "focus_points": [
+            "DIY-Lösungen",
+            "Radinfrastruktur",
+            "Verkehrsüberwachung"
+        ]
+    },
+    "ESFP": {
+        "title": "Der Kommunikator",
+        "description": "Du bringst gerne Menschen zusammen und schaffst Bewusstsein für die Verkehrswende auf eine positive, ansprechende Art. Du bist extrovertiert und engagierst dich oft bei öffentlichen Veranstaltungen, um Menschen zu inspirieren.",
+        "focus_points": [
+            "Öffentlichkeitsarbeit",
+            "Gemeinschaftsevents",
+            "kreative Mobilitätsprojekte"
+        ]
+    },
+    "ISFP": {
+        "title": "Der Künstler",
+        "description": "Du siehst in der Verkehrswende eine Möglichkeit, Städte lebenswerter und ästhetischer zu gestalten. Für dich ist es wichtig, dass Mobilität auch einen Beitrag zur Schönheit und Harmonie in der urbanen Landschaft leistet.",
+        "focus_points": [
+            "Stadtbegrünung",
+            "Verkehrsberuhigung",
+            "nachhaltiges Design"
+        ]
+    },
+    "ENTJ": {
+        "title": "Der Anführer",
+        "description": "Du bist durchsetzungsstark und entscheidungsfreudig. Du führst gerne große Projekte und Kampagnen an, um strukturelle Veränderungen in der Verkehrspolitik zu bewirken. Du bist effizient und ergebnisorientiert.",
+        "focus_points": [
+            "Politische Veränderungen",
+            "große Infrastrukturprojekte",
+            "Mobilitätsstrategien"
+        ]
+    },
+    "INTJ": {
+        "title": "Der Strategische Denker",
+        "description": "Du entwirfst langfristige Pläne und Strategien, um die Verkehrswende durchzusetzen. Dein Ansatz ist methodisch und du überlässt nichts dem Zufall. Du setzt auf Effizienz und innovative Technologien.",
+        "focus_points": [
+            "Zukunftsvision",
+            "technische Innovationen",
+            "städtebauliche Planung"
+        ]
+    },
+    "ENFJ": {
+        "title": "Der Aktivist",
+        "description": "Du bist ein charismatischer Führer, der andere Menschen für die Verkehrswende begeistert und motiviert. Du hast eine starke Vision und kannst Menschen um dich herum vereinen, um gemeinsam für Veränderungen zu kämpfen.",
+        "focus_points": [
+            "Führung von Bewegungen",
+            "Aktivismus",
+            "gesellschaftliche Transformation"
+        ]
+    },
+    "INFJ": {
+        "title": "Der Visionär",
+        "description": "Du hast eine tiefe Überzeugung, dass die Verkehrswende nicht nur ein Umweltprojekt ist, sondern eine grundlegende Veränderung der Gesellschaft bewirken kann. Du siehst Mobilität als Menschenrecht und arbeitest für eine integrative, nachhaltige Zukunft.",
+        "focus_points": [
+            "Soziale Gerechtigkeit",
+            "Klimaschutz",
+            "langfristige Visionen"
+        ]
+    },
+    "ENTP": {
+        "title": "Der Provokateur",
+        "description": "Du liebst es, Debatten anzustoßen und bestehende Strukturen zu hinterfragen. Du bist oft dort zu finden, wo neue Ideen kontrovers diskutiert werden, und forderst andere dazu auf, ihre Sichtweise zu ändern.",
+        "focus_points": [
+            "Politische Lobbyarbeit",
+            "disruptive Technologien",
+            "transformative Ideen"
+        ]
+    },
+    "INTP": {
+        "title": "Der Analytiker",
+        "description": "Du analysierst gerne die Systeme hinter der Verkehrspolitik und suchst nach innovativen, oft unkonventionellen Lösungen. Deine Stärke liegt in der Fähigkeit, komplexe Probleme zu durchdringen und neue Ideen zu entwickeln.",
+        "focus_points": [
+            "Verkehrsdatensysteme",
+            "innovative Technologien",
+            "Forschung"
+        ]
+    },
+    "ENFP": {
+        "title": "Der Inspirator",
+        "description": "Du bist ein optimistischer und kreativer Aktivist, der immer nach neuen Wegen sucht, die Menschen für die Verkehrswende zu begeistern. Deine Ideen sind bunt, unkonventionell und inspirierend.",
+        "focus_points": [
+            "Nachhaltige Mobilitätskampagnen",
+            "kreative Events",
+            "soziale Bewegungen"
+        ]
+    },
+    "INFP": {
+        "title": "Der Idealist",
+        "description": "Deine Motivation kommt aus tiefen Überzeugungen über Umweltschutz und soziale Gerechtigkeit. Du siehst die Verkehrswende als Mittel, um eine bessere, gerechtere Welt zu schaffen und stehst für Werte wie Empathie und Frieden.",
+        "focus_points": [
+            "Umweltschutz",
+            "Klimagerechtigkeit",
+            "alternative Mobilität"
+        ]
+    }
+}

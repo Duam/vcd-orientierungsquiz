@@ -1,0 +1,170 @@
+[
+    {
+        "title": "",
+        "statement": "Ich bevorzuge öffentlichen Aktionen statt im Hintergrund zu arbeiten.",
+        "type": "E/I",
+        "leftLabel": "Öffentliche Aktionen",
+        "rightLabel": "Hintergrundarbeit"
+    },
+    {
+        "title": "",
+        "statement": "Bei Studien konzentriere ich mich auf die konkreten Zahlen und Fakten statt auf die Muster und Ideen, die über die Zahlen hinausgehen.",
+        "type": "S/N",
+        "leftLabel": "Konkrete Zahlen",
+        "rightLabel": "Übergreifende Ideen"
+    },
+    {
+        "title": "",
+        "statement": "Wie würdest du Entscheidungen treffen im Bezug auf Verkehrswende-Projekte?",
+        "type": "T/F",
+        "leftLabel": "Kosten-Nutzen-Abwägung",
+        "rightLabel": "Werte und Empathie"
+    },
+    {
+        "title": "",
+        "statement": "Wie würdest du eine Kampagne für die Verkehrswende planen?",
+        "type": "J/P",
+        "leftLabel": "Mit detaillierten Plänen und Zeitplan",
+        "rightLabel": "Mit viel Raum für spontane Änderungen"
+    },
+    {
+        "title": "",
+        "statement": "Ich tausche mich lieber im großen Plenum aus statt im kleinen Gespräch.",
+        "type": "E/I",
+        "leftLabel": "Großes Plenum",
+        "rightLabel": "Kleines Gespräch"
+    },
+    {
+        "title": "",
+        "statement": "Ich bevorzuge praktische, bewährte Lösungen gegenüber Zukunftsvisionen.",
+        "type": "S/N",
+        "leftLabel": "Bewährte Lösungen",
+        "rightLabel": "Zukunftsvisionen"
+    },
+    {
+        "title": "",
+        "statement": "Wie würdest du bei Widerstand gegen eine Mobilitätsinitiative reagieren?",
+        "type": "T/F",
+        "leftLabel": "Sachliche Argumente\npräsentieren",
+        "rightLabel": "Widerstand verstehen\nund Konsens finden"
+    },
+    {
+        "title": "",
+        "statement": "Wie gehst du mit unterwarteten Veränderungen in einem Projekt um?",
+        "type": "J/P",
+        "leftLabel": "Den Plan anpassen",
+        "rightLabel": "Den Umständen anpassen"
+    },
+    {
+        "title": "",
+        "statement": "Ich halte lieber öffentliche Reden statt schriftliche Beiträge.",
+        "type": "E/I",
+        "leftLabel": "Öffentliche Reden",
+        "rightLabel": "Schriftliche Beiträge"
+    },
+    {
+        "title": "",
+        "statement": "Ich stütze meine Argumente lieber auf konkrete Beispiele und Beweise als auf abstrakte Ideen",
+        "type": "S/N",
+        "leftLabel": "Konkrete Beweise",
+        "rightLabel": "Inspirierende Ideen"
+    },
+    {
+        "title": "",
+        "statement": "Was ist wichtiger: Effizienz und Machbarkeit oder Soziale Gerechtigkeit?",
+        "type": "T/F",
+        "leftLabel": "Effizienz und Machbarkeit",
+        "rightLabel": "Soziale Gerechtigkeit"
+    },
+    {
+        "title": "Langfristige Projekte",
+        "statement": "Du willst einen Superblock in deinem Stadtteil umsetzen, ein riesen Projekt! Wie gehst du vor?",
+        "type": "J/P",
+        "leftLabel": "Ich habe klare Ziele und Meilensteine, die ich Schritt für Schritt abarbeite.",
+        "rightLabel": "Ich improvisiere jeden Schritt und reagiere flexibel auf neue Situationen."
+    },
+    {
+        "title": "",
+        "statement": "Soziale Interaktionen geben mir Energie.",
+        "type": "E/I",
+        "leftLabel": "",
+        "rightLabel": ""
+    },
+    {
+        "title": "",
+        "statement": "Ich messe den Erfolg von Projekten an konkreten, messbaren Ergebnissen statt am Potenzial, die Gesellschaft auf lange Sicht zu verändern",
+        "type": "S/N",
+        "leftLabel": "Messbare Ergebnisse",
+        "rightLabel": "Potenzial für Veränderung"
+    },
+    {
+        "title": "",
+        "statement": "Wie entscheidest du, welche Projekte Priorität haben sollten?",
+        "type": "T/F",
+        "leftLabel": "Nach praktischem Nutzen",
+        "rightLabel": "Bedürfnisse berücksichtigen der Menschen"
+    },
+    {
+        "title": "Wie sieht ein ideales Plenum für dich aus?",
+        "statement": "Wie sieht eine ideale Diskussionsrunde für dich aus?",
+        "type": "J/P",
+        "leftLabel": "Ich schätze es, wenn ein klares Ziel vorgegeben ist und wir effizient arbeiten.",
+        "rightLabel": "Ich genieße es, wenn die Diskussion offen ist und neue Ideen ungeplant aufkommen."
+    },
+    {
+        "title": "",
+        "statement": "Diskussionen mit anderen inspirieren mich eher als die ruhigen Momente des Nachdenkens.",
+        "type": "E/I",
+        "leftLabel": "Diskutieren",
+        "rightLabel": "Nachdenken"
+    },
+    {
+        "title": "",
+        "statement": "Bei der Planung von Projekten gehe ich Schritt für Schritt vor und konzentriere mich erstmal auf die Details statt auf's große Ganze",
+        "type": "S/N",
+        "leftLabel": "Auf die Details",
+        "rightLabel": "Auf das Große Ganze"
+    },
+    {
+        "title": "",
+        "statement": "Wie würdest du mit Konflikten in deinem Aktivistennetzwerk umgehen?",
+        "type": "T/F",
+        "leftLabel": "Auf Fakten fokussieren",
+        "rightLabel": "Emotionen aller berücksichtigen"
+    },
+    {
+        "title": "Wie gehst du mit Zeitdruck um?",
+        "statement": "Die Frist für die Bürgerbeteiligung für den neuen Stadtteil schließt nächste Woche Sonntag. Wie gehst du vor?",
+        "type": "J/P",
+        "leftLabel": "Ich habe im Voraus geplant und bereits letzte Woche meine Stellungnahme abgegeben.",
+        "rightLabel": "Ich habe ja noch eine Woche Zeit, das mache ich am Wochenende. Unter Druck entstehen schließlich Diamanten."
+    },
+    {
+        "title": "",
+        "statement": "Wenn ich Veränderung erreichen will, spreche ich direkt mit den Entscheidungsträgern statt auf stille, langfristige Lobbyarbeit zu setzen",
+        "type": "E/I",
+        "leftLabel": "Direkte Ansprache",
+        "rightLabel": "Langfristige Lobbyarbeit"
+    },
+    {
+        "title": "",
+        "statement": "Greifbare Verbesserungen im täglichen Leben motivieren mich mehr als die Vorstellung, eine völlig neue Mobilitätskultur zu schaffen",
+        "type": "S/N",
+        "leftLabel": "Greifbare Lösungen",
+        "rightLabel": "Neue Mobilitätskultur"
+    },
+    {
+        "title": "Wie kommunizierst du die Klimakrise?",
+        "statement": "Du redest mit einem Passanten an deinem Infostand. Das Thema Klimakrise taucht auf. Wie sprichst du über die Klimakrise im Kontext der Verkehrswende?",
+        "type": "T/F",
+        "leftLabel": "Ich argumentiere mit wissenschaftlichen Fakten",
+        "rightLabel": "Ich appelliere an das Mitgefühl und die Verantwortung"
+    },
+    {
+        "title": "",
+        "statement": ".",
+        "type": "J/P",
+        "leftLabel": "",
+        "rightLabel": ""
+    }
+]
