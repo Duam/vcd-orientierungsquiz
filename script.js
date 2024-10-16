@@ -72,7 +72,7 @@ function showPage(pageIndex) {
             <div class="question-block">
                 <h3>${questionNumber}. ${questionObj.title}</h3>
                 <p>${questionObj.statement}</p>
-                ${generateScaleButtons(questionNumber - 1)}
+                ${generateScaleSlider(questionNumber - 1)}
             </div>
         `;
     });
@@ -94,27 +94,33 @@ function showPage(pageIndex) {
 }
 
 
-function generateScaleButtons(questionIndex) {
-    let scaleButtons = '<div class="scale">';
+function generateScaleSlider(questionIndex) {
+    const value = userChoices[questionIndex] !== undefined ? userChoices[questionIndex] : 0.5; // Default to 0.5 if undefined
     
-    // Label on the left
-    scaleButtons += `<span class="scale-label">${questions[questionIndex].leftLabel}</span>`;
+    let html = '<div class="scale">';
     
-    // Radio buttons
-    for (let i = 0; i <= 6; i++) {
-        const checked = userChoices[questionIndex] === i ? 'checked' : '';
-        scaleButtons += `
-            <label class="scale-option">
-                <input type="radio" name="q${questionIndex}" value="${i}" ${checked} onchange="selectOption(${questionIndex}, ${i})">
-                <span class="custom-radio"></span>
-            </label>
-        `;
-    }
     
-    // Label on the right
-    scaleButtons += `<span class="scale-label">${questions[questionIndex].rightLabel}</span>`;
-    scaleButtons += '</div>';
-    return scaleButtons;
+    html += `
+    <div class="slider-container">
+        <input type="range" min="0" max="1" step="0.01" value="${value}" class="slider" id="q${questionIndex}" oninput="selectOption(${questionIndex}, this.value)">
+        <div class="scale-labels">
+            <span class="scale-label left-label">${questions[questionIndex].leftLabel}</span>
+            <span class="scale-label right-label">${questions[questionIndex].rightLabel}</span>
+        </div>
+    </div>
+    `;
+    
+    html += ``;
+    html += ``;
+    html += '</div>';
+
+    // After the slider is added to the DOM, update its background
+    setTimeout(() => {
+        const slider = document.getElementById(`q${questionIndex}`);
+        updateSliderBackground(slider, value);
+    }, 0);
+
+    return html;
 }
 
 
@@ -122,10 +128,10 @@ function nextPage() {
     const start = currentPage * questionsPerPage;
     const end = Math.min(start + questionsPerPage, questions.length);
 
-    // Assign neutral value (3) to unanswered questions on the current page
+    // Assign default value (0.5) to unanswered questions on the current page
     for (let i = start; i < end; i++) {
         if (userChoices[i] === undefined) {
-            userChoices[i] = 3; // Neutral value
+            userChoices[i] = 0.5; // Default value
         }
     }
 
@@ -137,6 +143,7 @@ function nextPage() {
         showPage(currentPage);
     }
 }
+
 
 
 function prevPage() {
@@ -162,17 +169,22 @@ function updateProgressBar() {
 }
 
 
-function selectOption(questionIndex, scaleValue) {
-    userChoices[questionIndex] = scaleValue;
+function selectOption(questionIndex, sliderValue) {
+    const slider = document.getElementById(`q${questionIndex}`);
+    userChoices[questionIndex] = parseFloat(sliderValue);
+    updateSliderBackground(slider, sliderValue);
     updateProgressBar();
 }
+
+function updateSliderBackground(slider, value) {
+    const percentage = value * 100 + "%";
+    slider.style.setProperty('--value', percentage);
+}
+
 
 function submitQuiz() {
     showResults();
 }
-
-
-showQuestion(currentQuestion);
 
 
 function calculatePersonalityType() {
@@ -191,13 +203,15 @@ function calculatePersonalityType() {
         const type = questions[index].type;
         const [firstTrait, secondTrait] = type.split('/');
 
-        // Assign neutral value if unanswered
-        const selectedValue = value !== undefined ? value : 3;
+        const selectedValue = value; // Value between 0 and 1
 
-        if (selectedValue <= 3) {
-            scores[firstTrait] += (3 - selectedValue);
+        // Lower values favor the first trait; higher values favor the second trait
+        const midpoint = 0.5;
+
+        if (selectedValue <= midpoint) {
+            scores[firstTrait] += (midpoint - selectedValue);
         } else {
-            scores[secondTrait] += (selectedValue - 3);
+            scores[secondTrait] += (selectedValue - midpoint);
         }
     });
 
@@ -209,6 +223,7 @@ function calculatePersonalityType() {
 
     return personalityType;
 }
+
 
 
 function showResults() {

@@ -1,6 +1,6 @@
 [
     {
-        "title": "",
+        "title": "Stehst du lieber ganz vorne oder hinten?",
         "statement": "Ich bevorzuge öffentlichen Aktionen statt im Hintergrund zu arbeiten.",
         "type": "E/I",
         "leftLabel": "Öffentliche Aktionen",
@@ -14,7 +14,7 @@
         "rightLabel": "Übergreifende Ideen"
     },
     {
-        "title": "",
+        "title": "Wie triffst du Entscheidungen?",
         "statement": "Wie würdest du Entscheidungen treffen im Bezug auf Verkehrswende-Projekte?",
         "type": "T/F",
         "leftLabel": "Kosten-Nutzen-Abwägung",
@@ -42,7 +42,7 @@
         "rightLabel": "Zukunftsvisionen"
     },
     {
-        "title": "",
+        "title": "Wie gehst du mit Widerstand um?",
         "statement": "Wie würdest du bei Widerstand gegen eine Mobilitätsinitiative reagieren?",
         "type": "T/F",
         "leftLabel": "Sachliche Argumente\npräsentieren",
@@ -63,11 +63,11 @@
         "rightLabel": "Schriftliche Beiträge"
     },
     {
-        "title": "",
-        "statement": "Ich stütze meine Argumente lieber auf konkrete Beispiele und Beweise als auf abstrakte Ideen",
+        "title": "Herz oder Verstand?",
+        "statement": "Wie formulierst du deine Argumente für die Verkehrswende?",
         "type": "S/N",
-        "leftLabel": "Konkrete Beweise",
-        "rightLabel": "Inspirierende Ideen"
+        "leftLabel": "Ich stütze mich auf konkrete Beispiele und Beweise",
+        "rightLabel": "Ich versuche ein Bild einer positiven Zukunft zu zeichnen"
     },
     {
         "title": "",
@@ -112,7 +112,7 @@
         "rightLabel": "Ich genieße es, wenn die Diskussion offen ist und neue Ideen ungeplant aufkommen."
     },
     {
-        "title": "",
+        "title": "Was inspiriert dich?",
         "statement": "Diskussionen mit anderen inspirieren mich eher als die ruhigen Momente des Nachdenkens.",
         "type": "E/I",
         "leftLabel": "Diskutieren",
@@ -126,7 +126,7 @@
         "rightLabel": "Auf das Große Ganze"
     },
     {
-        "title": "",
+        "title": "Wie gehst du mit Konflikten um?",
         "statement": "Wie würdest du mit Konflikten in deinem Aktivistennetzwerk umgehen?",
         "type": "T/F",
         "leftLabel": "Auf Fakten fokussieren",
@@ -140,14 +140,14 @@
         "rightLabel": "Ich habe ja noch eine Woche Zeit, das mache ich am Wochenende. Unter Druck entstehen schließlich Diamanten."
     },
     {
-        "title": "",
-        "statement": "Wenn ich Veränderung erreichen will, spreche ich direkt mit den Entscheidungsträgern statt auf stille, langfristige Lobbyarbeit zu setzen",
+        "title": "Direkt zu den Entscheidungsträgern oder eher langfristige Lobbyarbeit?",
+        "statement": "Auf deinem Weg zur Arbeit beobachtest du vor einer Schule immer wieder gefährliche Situationen. Es muss sich etwas ändern! Würdest du eher langfristige Lobbyarbeit leisten, um gleich das ganze Viertel zu verkehrsberuhigen? Oder würdest du dich sofort an den Entscheidungsträger wenden, damit die Situation entschärft wird?",
         "type": "E/I",
         "leftLabel": "Direkte Ansprache",
         "rightLabel": "Langfristige Lobbyarbeit"
     },
     {
-        "title": "",
+        "title": "Wie konkret möchtest du Verkehrswende?",
         "statement": "Greifbare Verbesserungen im täglichen Leben motivieren mich mehr als die Vorstellung, eine völlig neue Mobilitätskultur zu schaffen",
         "type": "S/N",
         "leftLabel": "Greifbare Lösungen",
@@ -161,7 +161,7 @@
         "rightLabel": "Ich appelliere an das Mitgefühl und die Verantwortung"
     },
     {
-        "title": "",
+        "title": "Zeitmanagementl",
         "statement": ".",
         "type": "J/P",
         "leftLabel": "",
