@@ -2,7 +2,7 @@
 
 let questions = [];
 let currentPage = 0;
-const questionsPerPage = 6;
+const questionsPerPage = 4;
 let currentQuestion = 0;
 let userChoices = [];
 let totalPages = 0;
@@ -141,6 +141,9 @@ function nextPage() {
     if (currentPage < totalPages - 1) {
         currentPage++;
         showPage(currentPage);
+
+        // Scroll to the top of the page
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 }
 
