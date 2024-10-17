@@ -18,6 +18,7 @@ h1 {
     margin: 0 auto;
 }
 
+
 /* Progress Bar */
 .progress-bar {
     width: 100%;
@@ -98,15 +99,61 @@ h1 {
 }
 
 /* Pagination Buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    flex: 1 1 auto; /* Allow buttons to grow and shrink */
+    max-width: 200px; /* Optional: Set a maximum width for buttons */
+}
+
+/* Primary Button Style */
+.btn-next {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.btn-next:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Secondary Button Style */
+.btn-previous {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-previous:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Disabled Button Style */
+.btn:disabled {
+    background-color: #c0c0c0;
+    cursor: not-allowed;
+}
+
 .pagination {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    align-items: center;
+    margin: 20px 0;
 }
 
 .pagination button {
     padding: 10px 20px;
     font-size: 16px;
+}
+
+.spacer {
+    flex: 1;
 }
 
 
@@ -215,11 +262,63 @@ h1 {
 
     .pagination {
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
     }
 
-    .pagination button {
-        width: 100%;
+    .btn-next {
+        order: -1; /* Move Next button to the top */
         margin-bottom: 10px;
     }
+
+    .btn-previous,
+    .btn-next {
+        max-width: none; /* Allow buttons to take full width */
+    }
+}
+
+header {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    max-width: 200px; /* Adjust size as needed */
+    height: auto;
+}
+
+
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px 0;
+    margin-top: 40px; /* Add some space above the footer */
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left; /* Align content to the left */
+    padding-left: 20px; /* Optional: Add left padding for spacing */
+}
+
+.footer-logo {
+    max-width: 150px; /* Adjust size as needed */
+    height: auto;
+    display: inline-block; /* Ensure proper alignment */
+    /* Remove any margin auto that might center it */
+    margin: 0;
+}
+
+.header-logo,
+.footer-logo {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
 }

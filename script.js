@@ -79,8 +79,8 @@ function showPage(pageIndex) {
 
     const paginationButtons = `
         <div class="pagination">
-            ${pageIndex > 0 ? '<button onclick="prevPage()">Previous</button>' : '<div></div>'}
-            ${pageIndex < totalPages - 1 ? '<button onclick="nextPage()">Next</button>' : '<button onclick="submitQuiz()">Submit</button>'}
+        ${pageIndex > 0 ? '<button class="btn btn-previous" onclick="prevPage()">Zurück</button>' : '<div></div>'}
+        ${pageIndex < totalPages - 1 ? '<button class="btn btn-next" onclick="nextPage()">Weiter</button>' : '<button class="btn btn-next" onclick="submitQuiz()">Fertig</button>'}
         </div>
     `;
 
