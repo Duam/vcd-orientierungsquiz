@@ -7,67 +7,67 @@
         "rightLabel": "Ich will nur Hintergrundarbeit machen."
     },
     {
-        "title": "Bleibst du bei den Fakten oder siehst du die übergreifenden Ideen und Muster?",
-        "statement": "Bei Studien konzentriere ich mich auf die konkreten Zahlen und Fakten statt auf die Muster und Ideen, die über die Zahlen hinausgehen. Bewährte Lösungen vs Zukunftsvisionen.",
+        "title": "Arbeitest du lieber mit konkreten Fakten oder entwirfst du gerne größere Visionen?",
+        "statement": "Ihr bereitet einen öffentlichen Workshop zum Thema nachhaltige Stadtplanung vor. Es gibt eine Fülle von Daten, etwa zur Luftverschmutzung und Verkehrsdichte, die eine tiefere Analyse erfordern, aber auch die Chance, langfristige Ideen und Zukunftsvisionen für die Stadt zu entwickeln. Würdest du dich eher auf die Analyse der Daten konzentrieren oder Ideen für eine umfassende Vision zur Stadtentwicklung entwickeln?",
         "type": "S/N",
         "leftLabel": "Ich konzentriere mich auf die konkreten Fakten",
         "rightLabel": "Übergreifende Ideen"
     },
     {
-        "title": "Strikte Pläne oder viel Spielraum?",
-        "statement": "Wie würdest du eine Kampagne für die Verkehrswende planen?",
+        "title": "Hältst du dich gerne an feste Pläne oder schätzt du Flexibilität?",
+        "statement": "Ihr plant eine Fahrrad-Demo in der Innenstadt. Ein fester Zeitplan mit festgelegten Rednern und Routen würde die Veranstaltung reibungslos verlaufen lassen, aber auch einschränken, wie flexibel ihr auf spontane Redebeiträge oder unerwartete Hindernisse reagieren könnt. Möchtest du lieber einen strikten Ablaufplan oder Raum für spontane Änderungen lassen?",
         "type": "J/P",
         "leftLabel": "Mit detaillierten Plänen und Zeitplan",
         "rightLabel": "Mit viel Raum für spontane Änderungen"
     },
     {
         "title": "Kleine oder große Runde?",
-        "statement": "Ich tausche mich lieber im großen Plenum aus statt im kleinen Gespräch.",
+        "statement": "Ihr organisiert ein Brainstorming zur Verkehrswende. Es gibt die Möglichkeit, entweder ein kleines, intensives Meeting mit ein paar Teammitgliedern oder eine größere Diskussion mit vielen Teilnehmenden zu planen, um vielfältige Ideen zu sammeln. Wo siehst du dich eher?",
         "type": "E/I",
         "leftLabel": "Großes Plenum",
         "rightLabel": "Kleines Gespräch"
     },
     {
-        "title": "Wie gehst du mit Widerstand um? Wie triffst du Entscheidungen?",
-        "statement": "Wie würdest du bei Widerstand gegen eine Mobilitätsinitiative reagieren? Wie würdest du Entscheidungen treffen im Bezug auf Verkehrswende-Projekte?",
+        "title": "Reagierst du auf Widerstand mit sachlicher Überzeugungskraft oder mit Verständnis und Kompromissbereitschaft?",
+        "statement": "Ihr habt eine Initiative für mehr Fußgängerzonen gestartet, aber einige Ladenbesitzer befürchten dadurch Einbußen. Würdest du versuchen, sie mit Argumenten und Studien zu überzeugen oder eher auf ihre Sorgen eingehen und versuchen, eine gemeinsame Lösung zu finden?",
         "type": "T/F",
         "leftLabel": "Sachliche Argumente\npräsentieren. Kosten-Nutzen-Abwägung",
         "rightLabel": "Widerstand verstehen\nund Konsens finden. Werte und Empathie"
     },
     {
         "title": "Herz oder Verstand?",
-        "statement": "Wie formulierst du deine Argumente für die Verkehrswende?",
+        "statement": "Du sollst eine Rede zur Verkehrswende bei einer öffentlichen Veranstaltung halten. Würdest du lieber Zahlen und Statistiken zur Luftqualität und Unfallsicherheit verwenden oder die Rede mit persönlichen Geschichten und emotionalen Appellen gestalten?",
         "type": "S/N",
         "leftLabel": "Ich stütze mich auf konkrete Beispiele und Beweise",
         "rightLabel": "Ich versuche ein Bild einer positiven Zukunft zu zeichnen"
     },
     {
         "title": "Langfristige Projekte",
-        "statement": "Du willst einen Superblock in deinem Stadtteil umsetzen, ein riesen Projekt! Wie gehst du vor?",
+        "statement": "Ihr startet ein mehrjähriges Projekt zur Verbesserung des öffentlichen Nahverkehrs in der Region. Ein detaillierter Projektplan mit festgelegten Schritten würde die Umsetzung strukturieren, aber auch wenig Raum für flexible Anpassungen lassen. Würdest du lieber jeden Schritt im Voraus festlegen oder einen groben Plan entwerfen und ihn je nach Bedarf anpassen?",
         "type": "J/P",
         "leftLabel": "Ich habe klare Ziele und Meilensteine, die ich Schritt für Schritt abarbeite.",
         "rightLabel": "Ich improvisiere jeden Schritt und reagiere flexibel auf neue Situationen."
     },
     {
         "title": "Alle mitnehmen oder einfach machen?",
-        "statement": "Wie entscheidest du, welche Projekte Priorität haben sollten? Bürgerbeteiligung vs 'einfach machen'",
+        "statement": "Für die Planung einer neuen Fahrradspur gibt es verschiedene Ansichten in der Gruppe. Würdest du eher dafür sorgen, dass alle gehört werden und versuchen, einen Konsens zu finden, oder würdest du lieber direkt eine Entscheidung treffen und die Umsetzung vorantreiben?",
         "type": "T/F",
-        "leftLabel": "Nach praktischem Nutzen",
+        "leftLabel": "Schnelle Umsetzung",
         "rightLabel": "Bedürfnisse berücksichtigen der Menschen"
     },
     {
         "title": "Wie sieht ein ideales Plenum für dich aus?",
-        "statement": "Wie sieht eine ideale Diskussionsrunde für dich aus?",
+        "statement": "Ihr habt ein Arbeitstreffen mit dem Thema 'Verkehrsberuhigung im Stadtzentrum'. Wie sieht eine ideale Diskussionsrunde für dich aus? Schätzt du es eher, wenn ein klares Ziel vorgegeben ist (und man somit effizient arbeiten kann) oder wenn die Diskussion offen ist (wo neue Ideen ungeplant aufkommen)?",
         "type": "J/P",
-        "leftLabel": "Ich schätze es, wenn ein klares Ziel vorgegeben ist und wir effizient arbeiten.",
-        "rightLabel": "Ich genieße es, wenn die Diskussion offen ist und neue Ideen ungeplant aufkommen."
+        "leftLabel": "Zielorientiertes Arbeiten",
+        "rightLabel": "Offene Diskussion"
     },
     {
-        "title": "Was inspiriert dich? Was gibt dir Energie?",
-        "statement": "Diskussionen mit anderen inspirieren mich eher als die ruhigen Momente des Nachdenkens.",
+        "title": "Tanken deine Batterien durch Austausch mit anderen oder in der Ruhe?",
+        "statement": "Für das Jahresende plant ihr ein kleines internes Event. Würdest du lieber als Kernteam essen gehen oder eine große Party mit vielen Gästen vorschlagen?",
         "type": "E/I",
-        "leftLabel": "Diskutieren",
-        "rightLabel": "Nachdenken"
+        "leftLabel": "Große Party",
+        "rightLabel": "Kleine Feier"
     },
     {
         "title": "Hast du ein Auge für's Detail oder siehst du das große Ganze?",
@@ -78,7 +78,7 @@
     },
     {
         "title": "Wie gehst du mit Konflikten um?",
-        "statement": "Wie würdest du mit Konflikten in deinem Aktivistennetzwerk umgehen?",
+        "statement": "Es gibt Spannungen in der Gruppe über die Priorität verschiedener Projekte. Bist du eher dafür, das Thema offen anzusprechen und sachlich eine Lösung zu finden oder möchtest du mit den betroffenen Personen in Ruhe sprechen, um Verständnis und Lösungen aufzubauen?",
         "type": "T/F",
         "leftLabel": "Auf Fakten fokussieren",
         "rightLabel": "Emotionen aller berücksichtigen"
@@ -99,10 +99,10 @@
     },
     {
         "title": "Wie konkret möchtest du Verkehrswende?",
-        "statement": "Greifbare Verbesserungen im täglichen Leben motivieren mich mehr als die Vorstellung, eine völlig neue Mobilitätskultur zu schaffen. Ich messe den Erfolg von Projekten an konkreten, messbaren Ergebnissen statt am Potenzial, die Gesellschaft auf lange Sicht zu verändern",
+        "statement": "Ihr entwickelt Ideen für die lokale Umsetzung der Verkehrswende. Einige wollen spezifische Maßnahmen wie Fahrradständer an Bushaltestellen, andere möchten eine Vision für das gesamte Verkehrsnetz. Möchtest du eher an konkreten Details arbeiten oder übergeordneten Konzepten für die Stadt?",
         "type": "S/N",
-        "leftLabel": "Greifbare Lösungen, messbare Ergebnisse",
-        "rightLabel": "Neue Mobilitätskultur, Potenzial für Veränderungen"
+        "leftLabel": "Konkrete Änderungen",
+        "rightLabel": "Übergeordnete Konzepte"
     },
     {
         "title": "Wie kommunizierst du die Klimakrise?",
