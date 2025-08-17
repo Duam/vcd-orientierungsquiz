@@ -159,7 +159,7 @@ function prevPage() {
 function generateProgressBar() {
     return `
         <div class="progress-bar">
-            <div id="progress" class="progress"></div>
+            <div id="progress" class="progress"/>
         </div>
     `;
 }
@@ -169,6 +169,7 @@ function updateProgressBar() {
     const answeredQuestions = userChoices.filter(choice => choice !== undefined).length;
     const progressPercentage = (answeredQuestions / questions.length) * 100;
     progressElement.style.width = `${progressPercentage}%`;
+    progressElement.textContent = `${progressPercentage}%`;
 }
 
 
@@ -186,7 +187,9 @@ function updateSliderBackground(slider, value) {
 
 
 function submitQuiz() {
-    showResults();
+    //showResults();
+    const personalityType = calculatePersonalityType();
+    window.location.replace(`ergebnis.html?key=${personalityType}`)
 }
 
 
@@ -251,6 +254,29 @@ function showResults() {
             <h2>${title}</h2>
             <p>${description}</p>
             ${focusPointsHTML}
+
+            <button id="share-button">Ergebnis teilen</button>
+            <a href="#"/>
+            <script>
+                const fbShare = "https://www...com/sharer/sharer.php?u=";
+
+                // Storing the URL of the current webpage
+                const URL = window.location.href.slice(7); // Removes 'http://'
+
+                // Select elements
+                const link = document.querySelector('a');
+                const button = document.querySelector('#share-button');
+
+                // Adding a click event listener to the button
+                button.addEventListener('click', () => {
+                    // Display the current webpage link
+                    link.textContent = fbShare + URL;
+                    link.href = fbShare + URL;
+
+                    // Log in the console
+                    console.log(fbShare + URL);
+                });
+            </script>
         `;
     } else {
         quizContainer.innerHTML = `

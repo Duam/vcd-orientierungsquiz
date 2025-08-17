@@ -25,15 +25,20 @@ h1 {
     background-color: #e0e0df;
     border-radius: 13px;
     margin-bottom: 20px;
-    height: 20px;
+    height: 25px;
+    border: 1px solid black;
 }
 
 .progress {
     height: 100%;
-    background-color: #76c7c0;
+    background-color: #eb6502;
     width: 0%;
     border-radius: 13px;
     transition: width 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 /* Question Block */
@@ -231,7 +236,7 @@ h1 {
 
 /* Update Slider Background on Input */
 .slider-container .slider {
-    background: linear-gradient(to right, #76c7c0 0%, #76c7c0 var(--value), #913b3b var(--value), #913b3b 100%);
+    background: linear-gradient(to right, #c6d950 0%, #c6d950 var(--value), #4fbbc4 var(--value), #4fbbc4 100%);
 }
 
 /* Adjustments for Mobile View */

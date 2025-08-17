@@ -10,8 +10,8 @@
         "title": "Arbeitest du lieber mit konkreten Fakten oder entwirfst du gerne größere Visionen?",
         "statement": "Ihr bereitet einen öffentlichen Workshop zum Thema nachhaltige Stadtplanung vor. Es gibt eine Fülle von Daten, etwa zur Luftverschmutzung und Verkehrsdichte, die eine tiefere Analyse erfordern, aber auch die Chance, langfristige Ideen und Zukunftsvisionen für die Stadt zu entwickeln. Würdest du dich eher auf die Analyse der Daten konzentrieren oder Ideen für eine umfassende Vision zur Stadtentwicklung entwickeln?",
         "type": "S/N",
-        "leftLabel": "Ich konzentriere mich auf die konkreten Fakten",
-        "rightLabel": "Übergreifende Ideen"
+        "leftLabel": "Ich konzentriere mich auf die konkreten Daten und Fakten",
+        "rightLabel": "Ich konzentriere mich auf die übergreifenden Ideen und Visionen"
     },
     {
         "title": "Hältst du dich gerne an feste Pläne oder schätzt du Flexibilität?",
@@ -53,7 +53,7 @@
         "statement": "Für die Planung einer neuen Fahrradspur gibt es verschiedene Ansichten in der Gruppe. Würdest du eher dafür sorgen, dass alle gehört werden und versuchen, einen Konsens zu finden, oder würdest du lieber direkt eine Entscheidung treffen und die Umsetzung vorantreiben?",
         "type": "T/F",
         "leftLabel": "Schnelle Umsetzung",
-        "rightLabel": "Bedürfnisse berücksichtigen der Menschen"
+        "rightLabel": "Bedürfnisse der Menschen berücksichtigen"
     },
     {
         "title": "Wie sieht ein ideales Plenum für dich aus?",
@@ -63,7 +63,7 @@
         "rightLabel": "Offene Diskussion"
     },
     {
-        "title": "Tanken deine Batterien durch Austausch mit anderen oder in der Ruhe?",
+        "title": "Laden deine Batterien durch Austausch mit anderen oder in der Ruhe?",
         "statement": "Für das Jahresende plant ihr ein kleines internes Event. Würdest du lieber als Kernteam essen gehen oder eine große Party mit vielen Gästen vorschlagen?",
         "type": "E/I",
         "leftLabel": "Große Party",
@@ -85,7 +85,7 @@
     },
     {
         "title": "Wie gehst du mit Zeitdruck um?",
-        "statement": "Die Frist für die Bürgerbeteiligung für den neuen Stadtteil schließt nächste Woche Sonntag. Wie gehst du vor?",
+        "statement": "Die Frist für die Bürgerbeteiligung für den neuen Stadtteil endet nächste Woche Sonntag. Wie gehst du vor?",
         "type": "J/P",
         "leftLabel": "Ich habe im Voraus geplant und bereits letzte Woche meine Stellungnahme abgegeben.",
         "rightLabel": "Ich habe ja noch eine Woche Zeit, das mache ich am Wochenende. Unter Druck entstehen schließlich Diamanten."
