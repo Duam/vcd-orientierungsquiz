@@ -5,3 +5,13 @@ Weitere Ideen:
   - Geeignete Aktionsformate oder Beteiligungsvorschläge
   - Further Reading, Buchtipps
   - Bild
+
+
+# Development
+
+Run locally with
+
+```
+docker build -t quiz-web .
+docker run -d -p 8080:8080 quiz-web
+```
