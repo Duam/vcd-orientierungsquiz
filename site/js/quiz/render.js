@@ -60,11 +60,19 @@ export function showPage(pageIndex) {
         </div>
     `;
 
-    quizContainer.innerHTML = `
-        ${generateProgressBar()}
-        ${questionHTML}
-        ${paginationButtons}
-    `;
+    const progressBar = generateProgressBar();
+
+    const progressBarContainer = document.createElement('div');
+    progressBarContainer.innerHTML = progressBar;
+    quizContainer.appendChild(progressBarContainer);
+
+    const questionHTMLContainer = document.createElement('div');
+    questionHTMLContainer.innerHTML = questionHTML;
+    quizContainer.appendChild(questionHTMLContainer);
+
+    const paginationButtonsContainer = document.createElement('div');
+    paginationButtonsContainer.innerHTML = paginationButtons;
+    quizContainer.appendChild(paginationButtonsContainer);
 
     updateProgressBar();
 }
