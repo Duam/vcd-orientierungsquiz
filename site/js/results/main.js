@@ -1,28 +1,29 @@
-export function getUrlParameterValueFromKey(variable) {
-    const query = window.location.search.substring(1);
-    const vars = query.split("&");
-    for (let i = 0; i < vars.length; i++) {
-        const pair = vars[i].split("=");
-        if (pair[0] === variable) {
-            return pair[1];
-        }
-    }
-    return null;
+function getNumericParam(name) {
+    const params = new URLSearchParams(window.location.search);
+    const value = params.get(name);
+    if (value === null) return null;
+    const n = parseInt(value, 10);
+    return Number.isNaN(n) ? null : n;
 }
 
-export function showOnlyPersonalityType() {
-    const personalityType = getUrlParameterValueFromKey("key");
-    if (personalityType === null) return;
+function determineTopRoleKey() {
+    const keys = ["Fr", "St", "Mo", "Ne", "Vi", "Di", "Ma"];
+    const scores = keys.map(k => ({ key: k, val: getNumericParam(k) }));
+    const valid = scores.filter(s => s.val !== null);
+    if (valid.length === 0) return null;
+    valid.sort((a, b) => b.val - a.val);
+    return valid[0].key;
+}
 
+function showResultCard() {
+    const topKey = determineTopRoleKey();
+    if (!topKey) return; // if no params, show all
     const allDivs = document.getElementsByClassName("card");
     for (let i = 0; i < allDivs.length; i++) {
         const div = allDivs[i];
-        if (div.id !== personalityType) {
-            div.style.display = 'none';
-        }
+        div.style.display = (div.id === topKey) ? '' : 'none';
     }
 }
 
-showOnlyPersonalityType();
-
+showResultCard();
 

@@ -4,9 +4,22 @@
     --radio-size: 20px; /* Adjust this value to change the size of the radio buttons */
 }
 
+html {
+    background-color: #ffffff;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Content area between header and footer */
+main, #quiz-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 h1 {
@@ -16,6 +29,7 @@ h1 {
 #quiz-container {
     max-width: 800px;
     margin: 0 auto;
+    background-color: transparent; /* Inherit from main */
 }
 
 
@@ -282,7 +296,7 @@ h1 {
 }
 
 header {
-    background-color: #f8f9fa; /* Light background color */
+    background-color: #ffffff; /* Light background color */
     padding: 10px 0;
     text-align: center;
 }
@@ -301,7 +315,7 @@ header {
 
 /* Footer Styles */
 footer {
-    background-color: #f8f9fa; /* Light background color */
+    background-color: #ffffff; /* Light background color */
     padding: 10px 0;
     margin-top: 40px; /* Add some space above the footer */
 }
