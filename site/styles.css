@@ -13,7 +13,7 @@ html, body {
 }
 
 .page {
-    min-height: 100vh;
+    min-height: 5vh;
     display: flex;
     flex-direction: column;
 }
@@ -21,6 +21,7 @@ html, body {
 main {
     background-color: #f8f9fa;
     flex: 1;
+    border-radius: 13px;
 }
 
 footer {

@@ -9,6 +9,7 @@ export function updateProgressBar() {
         progressElement.style.width = `${progressPercentage}%`;
         progressElement.textContent = `${progressPercentage}%`;
     }
+    console.log(progressPercentage);
 }
 
 export function nextPage() {

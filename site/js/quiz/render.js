@@ -37,6 +37,8 @@ export function showPage(pageIndex) {
     if (!state.questions.length) return;
 
     const quizContainer = document.getElementById('quiz-container');
+    quizContainer.innerHTML = '';
+    
     const start = pageIndex * state.questionsPerPage;
     const end = Math.min(start + state.questionsPerPage, state.questions.length);
     const pageQuestions = state.questions.slice(start, end);
@@ -61,7 +63,6 @@ export function showPage(pageIndex) {
     `;
 
     const progressBar = generateProgressBar();
-
     const progressBarContainer = document.createElement('div');
     progressBarContainer.innerHTML = progressBar;
     quizContainer.appendChild(progressBarContainer);
