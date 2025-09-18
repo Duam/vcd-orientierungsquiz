@@ -49,12 +49,12 @@ footer {
     margin-right: auto; /* center the container */
 }
 
-
 .role-card {
     border: 1px solid #ddd;
     border-radius: 12px;
-    padding: 1rem 1.25rem;
-    margin: 0 0 1rem 0;
+    padding: 20px 20px;
+    padding-bottom: 0px;
+    margin: 0 auto;
     background-color: #ffffff;
 }
 
@@ -341,4 +341,41 @@ footer {
 .footer-logo {
     max-width: 150px;
     height: auto;
+}
+
+/* Radar Chart Styles */
+.radar-chart-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.radar-chart-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#radarChart {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .radar-chart-container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+    
+    .radar-chart-container h3 {
+        font-size: 1.25rem;
+    }
+    
+    #radarChart {
+        width: 300px;
+        height: 300px;
+    }
 }
