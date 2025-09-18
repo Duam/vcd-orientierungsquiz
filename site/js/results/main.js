@@ -18,7 +18,7 @@ function determineTopRoleKey() {
 function showResultCard() {
     const topKey = determineTopRoleKey();
     if (!topKey) return; // if no params, show all
-    const allDivs = document.getElementsByClassName("card");
+    const allDivs = document.getElementsByClassName("role-card");
     for (let i = 0; i < allDivs.length; i++) {
         const div = allDivs[i];
         div.style.display = (div.id === topKey) ? '' : 'none';

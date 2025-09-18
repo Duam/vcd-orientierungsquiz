@@ -1,13 +1,9 @@
 export function calculateRoleType(userChoices, questions) {
-    if (!Array.isArray(userChoices) || !Array.isArray(questions) || userChoices.length !== questions.length) {
-        throw new Error("Invalid input: userChoices and questions must be arrays of the same length.");
-    }
+    console.log(userChoices);
+
     for (let i = 0; i < userChoices.length; i++) {
-        if (typeof userChoices[i] !== "number" || isNaN(userChoices[i]) || userChoices[i] < 0 || userChoices[i] > 1) {
-            throw new Error(`Invalid userChoices value at index ${i}: must be a number between 0 and 1.`);
-        }
-        if (!questions[i] || typeof questions[i].type !== "string" || !questions[i].type.includes('/')) {
-            throw new Error(`Invalid question at index ${i}: missing or malformed 'type' property.`);
+        if (userChoices[i] === undefined) {
+          userChoices[i] = 0.5;
         }
     }
 
